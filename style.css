@@ -1,14 +1,16 @@
 #main {
     /* variables */
-    --content-background: hsl(51, 40%, 96%);
-    --contrast-background: hsl(51, 40%, 87%);
+    --content-background: #E8A87C;
+    --contrast-background: #41B3A3;
     
     margin: 10px;
     background-color: var(--content-background, gray);
     display: flex;
     flex-direction: column;
   }
-  
+   #gray {
+    color: gray;
+  }
   header {
     background-color: var(--contrast-background, gray);
     border-radius: 10px;
@@ -48,6 +50,7 @@
   
   .text-content {
     text-align: justify;
+    color: gray;
   }
   
   li {
